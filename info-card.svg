@@ -1,0 +1,24 @@
+<svg width="490" height="250" xmlns="http://www.w3.org/2000/svg">
+    <style>
+        .text { font-family: 'Courier New', Courier, monospace; font-size: 14px; fill: #c9d1d9; opacity: 0; animation: fade-in 0.5s forwards; }
+        .key { fill: #79c0ff; font-weight: bold; }
+        .title { fill: #58a6ff; font-weight: bold; font-size: 16px; opacity: 0; animation: fade-in 0.5s forwards; }
+        @keyframes fade-in {
+            to { opacity: 1; }
+        }
+    </style>
+    <rect width="100%" height="100%" fill="#0d1117" rx="8" />
+    
+    <text x="20" y="40" class="title" style="animation-delay: 0.1s;">sudhirsivakumar@github</text>
+    <text x="20" y="55" class="text" style="animation-delay: 0.2s;">----------------------</text>
+
+    <text x="20" y="85" class="text" style="animation-delay: 0.3s;">
+        <tspan class="key">Title      :</tspan> B.E. Computer Science @ Bannari Amman Institute of Technology
+    </text>
+    <text x="20" y="115" class="text" style="animation-delay: 0.5s;">
+        <tspan class="key">Stack      :</tspan> Full-stack development, Go , Node.js, Flutter, MYsql, React/Angular, HTML, VanilaCSS, Tailwind CSS, Android Development
+    </text>
+    <text x="20" y="145" class="text" style="animation-delay: 0.7s;">
+        <tspan class="key">Highlight  :</tspan> AI augmented developer, Tech Enthusiast and a passionate learner.
+    </text>
+</svg>
