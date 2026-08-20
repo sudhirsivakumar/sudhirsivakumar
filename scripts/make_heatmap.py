@@ -1,8 +1,11 @@
+# scripts/make_heatmap.py
 import requests
 from bs4 import BeautifulSoup
+import time
 
 USERNAME = "sudhirsivakumar"
-url = f"https://github.com/users/{USERNAME}/contributions"
+# The ?v= timestamp forces GitHub to bypass its cache and serve fresh data
+url = f"https://github.com/users/{USERNAME}/contributions?v={int(time.time())}"
 
 print(f"Fetching contributions for {USERNAME}...")
 response = requests.get(url, headers={"User-Agent": "Mozilla/5.0"})
